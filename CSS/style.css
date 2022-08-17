@@ -131,13 +131,14 @@ header .container p{
 }
 .col-md-3{
     border: 1px solid rgba(0, 0, 0, 0.365);
-    padding: 40px;
+    padding: 40px;  
+    transition: 1s;
+
 }
 .col-md-3:hover{
     background-color: rgb(255, 0, 0);
     color: white;
     transform: scale(1.1);
-    transition: 1s;
     border-radius: 10px;
 }
 #projects{
